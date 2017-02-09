@@ -1,7 +1,18 @@
-var el = document.getElementByName("shoplist").checked;
-var i;
-for (var i = 0; i < el.length; i++) {
-    if (el[i].checked;) {
-        el.style.textDecoration = "line-through";
+/*function checkItOff()
+{
+var el = document.getElementsByName("shoplist");
+var checkArray = [];
+
+for (i=0; i<el.length; i++)
+{
+  if (el(i).checked)
+    {
+      checkArray.style.textDecoration = "line-through";
     }
+}
+}*/
+
+function check(boxNumber) {
+    let box = < HTMLInputElement > document.getElementById(boxNumber);
+    box.style = 'text-decoration: line-through';
 }

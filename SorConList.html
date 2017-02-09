@@ -5,17 +5,20 @@
     <meta charset="utf-8">
     <title>Shopping List</title>
     <link rel="stylesheet" type="text/css" href="SorConCSS.css">
-    <script src="/Documents/CoderCampsProjects/SorConProj/SorConJS.js">
+    <script src="SorConJS.js">
     </script>
 </head>
 
 <body>
-    <form class="" action="index.html" method="post">
+    <form>
         <ul>
-            <li><input type="checkbox" name="shoplist" value="ham">Ham</li>
-            <li><input type="checkbox" name="shoplist" value="cheese">Cheese</li>
-            <li><input type="checkbox" name="shoplist" value="bread">Bread</li>
-            <li><input type="checkbox" name="shoplist" value="mustard">Mustard</li>
+            <li><input type="checkbox" onClick="check('box1')"><span id="box1"></span>Ham</li>
+
+            <li><input type="checkbox"  onClick="check('box2')"><span id="box2"></span>Cheese</li>
+
+            <li><input type="checkbox"  onClick="check('box3')"><span id="box3"></span>Bread</li>
+
+            <li><input type="checkbox"  onClick="check('box4')"><span id="box4"></span>Mustard</li>
         </ul>
     </form>
 </body>
