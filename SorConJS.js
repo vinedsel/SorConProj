@@ -12,7 +12,11 @@ for (i=0; i<el.length; i++)
 }
 }*/
 
-function check(boxNumber) {
+/*function check(boxNumber) {
     let box = < HTMLInputElement > document.getElementById(boxNumber);
     box.style = 'text-decoration: line-through';
-}
+}*/
+
+/*var el =
+document.getElementById('box4');
+el.onClick = 'text-decoration: line-through';
