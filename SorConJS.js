@@ -20,3 +20,4 @@ for (i=0; i<el.length; i++)
 /*var el =
 document.getElementById('box4');
 el.onClick = 'text-decoration: line-through';
+*/
